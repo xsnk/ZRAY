@@ -1,12 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Graphics">
-      <UniqueIdentifier>{7f5e5a7c-c495-4f17-b2c7-3f3cb75cf64a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Util">
-      <UniqueIdentifier>{0267f306-644c-488b-9744-d0fdad69c861}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Geometry">
       <UniqueIdentifier>{cde36371-bd2f-43af-ae23-294a477c9c95}</UniqueIdentifier>
     </Filter>
@@ -14,24 +8,27 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Zdraw">
+      <UniqueIdentifier>{fdfbf3f1-8684-45c5-ad1a-3a893394957d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>App</Filter>
     </ClCompile>
-    <ClCompile Include="zraster.cpp">
-      <Filter>App</Filter>
+    <ClCompile Include="Zdraw.cpp">
+      <Filter>Zdraw</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="constants.h">
-      <Filter>App</Filter>
-    </ClInclude>
-    <ClInclude Include="geometry.h">
+    <ClCompile Include="Vec3.cpp">
       <Filter>Geometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Zdraw.hpp">
+      <Filter>Zdraw</Filter>
     </ClInclude>
-    <ClInclude Include="zraster.h">
-      <Filter>App</Filter>
+    <ClInclude Include="Vec3.hpp">
+      <Filter>Geometry</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

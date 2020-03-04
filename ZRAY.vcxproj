@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="zraster.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Vec3.cpp" />
+    <ClCompile Include="Zdraw.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="constants.h" />
-    <ClInclude Include="geometry.h" />
-    <ClInclude Include="zraster.h" />
+    <ClInclude Include="Vec3.hpp" />
+    <ClInclude Include="Zdraw.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{217e7d6e-5bd9-427e-b0a0-b27fd349c88b}</ProjectGuid>
